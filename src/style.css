@@ -1,1 +1,36 @@
 /* styles go here */
+html {
+  display: block;
+}
+
+form {
+  display: block;
+  margin-top: 0;
+}
+
+head {
+  display: none;
+}
+
+body {
+  display: block;
+  margin: 8px;
+}
+
+fieldset {
+  display: block;
+  padding-top: 0.35em;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  border: 2px groove (internal value);
+  margin: 0 2px 20px;
+}
+
+fieldset label:last-of-type {
+  margin: 0;
+}
+
+.first__area {
+  display: block;
+  margin: 0 0 10px;
+}
