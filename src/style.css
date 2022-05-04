@@ -1,16 +1,15 @@
 /* styles go here */
-
-form {
-  display: block;
-  margin-top: 0;
-}
-
-body {
+.body {
   display: block;
   margin: 8px;
 }
 
-fieldset {
+.main__form {
+  display: block;
+  margin-top: 0;
+}
+
+.fieldset {
   margin: 0 2px 20px;
 }
 

@@ -11,12 +11,13 @@
     <link rel="stylesheet" href="./style.css">
     <script type="text/javascript" src="./main.js"></script>
   </head>
-  <body>
-    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application"
+  <body class="body">
+    <form
+    action="https://mate-academy-form-lesson.herokuapp.com/create-application"
     method="post"
     class="main__form"
     >
-      <fieldset>
+      <fieldset class="fieldset">
         <legend>
           Personal information
         </legend>
@@ -26,7 +27,7 @@
           <input
           type="text"
           class="enter"
-          name="Surname"
+          name="surname"
           autocomplete="off"
           required
           >
@@ -37,7 +38,7 @@
           <input
           type="text"
           class="enter"
-          name="Name"
+          name="name"
           autocomplete="off"
           required
           >
@@ -60,7 +61,7 @@
           <input
           type="date"
           class="enter"
-          name="DateOfBirth"
+          name="dateOfBirth"
           >
         </label>
 
@@ -75,7 +76,7 @@
 
       </fieldset>
 
-      <fieldset>
+      <fieldset class="fieldset">
         <legend>
           Registration
         </legend>
@@ -105,7 +106,7 @@
 
       </fieldset>
 
-      <fieldset>
+      <fieldset class="fieldset">
         <legend>
           An interesting fact about you!
         </legend>
@@ -169,7 +170,7 @@
 
       </fieldset>
 
-      <fieldset>
+      <fieldset class="fieldset">
         <legend>
           Additional info:
         </legend>
@@ -199,7 +200,8 @@
         </label>
 
       </fieldset>
-      <input type="submit"
+      <input
+      type="submit"
       >
     </form>
   </body>
