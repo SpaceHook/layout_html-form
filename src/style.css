@@ -4,14 +4,14 @@
 }
 
 .fieldset {
-  margin: 0 2px 20px;
-}
-
-.fieldset label:last-of-type {
-  margin: 0;
+  margin-bottom: 20px;
 }
 
 .click__zone {
   display: block;
   margin: 0 0 10px;
+}
+
+.last__row {
+  margin: 0;
 }
